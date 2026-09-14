@@ -1,0 +1,23 @@
+# asp.net core & .net build output
+bin/
+obj/
+
+# config files
+appsettings.json
+appsettings.*.json
+
+# local database files
+*.db
+*.mdf
+*.ldf
+
+# visual studio
+.vs/
+*.user
+*.suo
+
+# logs
+*.log
+
+# static web assets
+wwwroot/lib/
