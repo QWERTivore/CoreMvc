@@ -12,15 +12,5 @@ namespace GetTheRepsWeb.Persistance.Data
 
         public DbSet<Product> Product { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder)
-        {
-            // base.OnModelCreating(modelBuilder);
-
-            modelBuilder.Entity<Product>().HasData(
-                new Product { Id = 1, Name = "Soap", Description= "A solid bar of soap. Safe for skin."},
-                new Product { Id = 2, Name = "Candy", Description = "A choclolate bar." },
-                new Product { Id = 3, Name = "Shampoo", Description = "A bottle of shampoo for cleaning hair." }
-                );
-        }
     }
 }
