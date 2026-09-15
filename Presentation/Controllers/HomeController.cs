@@ -1,6 +1,5 @@
-using GetTheRepsWeb.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+using GetTheRepsWeb.Presentation.ViewModels;
 
 namespace GetTheRepsWeb.Presentation.Controllers
 {
@@ -11,15 +10,15 @@ namespace GetTheRepsWeb.Presentation.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        [HttpPost]
+        public IActionResult AddProduct(AddProductViewModel vm)
         {
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult Privacy()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
     }
 }

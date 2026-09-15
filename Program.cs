@@ -7,7 +7,12 @@ using GetTheRepsWeb.Persistance.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // register controllers
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+    .AddRazorOptions(options =>
+    {
+        options.ViewLocationFormats.Add("~/Presentation/Views/{1}/{0}.cshtml");
+        options.ViewLocationFormats.Add("~/Presentation/Views/Shared/{0}.cshtml");
+    });
 
 // register dbcontext (microsoft example: https://learn.microsoft.com/en-us/ef/core/dbcontext-configuration )
 var dbConnectionString =
