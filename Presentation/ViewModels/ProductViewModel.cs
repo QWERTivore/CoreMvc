@@ -5,7 +5,7 @@ namespace GetTheRepsWeb.Presentation.ViewModels
     public class ProductViewModel
     {
         [Required]
-        public string Name { get; set; } = string.Empty;
+        public string Name { get; set; }
 
         [Required]
         public int Price { get; set; }
