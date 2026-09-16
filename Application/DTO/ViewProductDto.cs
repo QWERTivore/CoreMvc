@@ -1,12 +1,11 @@
-﻿namespace GetTheRepsWeb.Application.DTO
+﻿using GetTheRepsWeb.Domain.Enums;
+
+namespace GetTheRepsWeb.Application.DTO
 {
     public class ViewProductDto
     {
-        public string Name { get; set; } = string.Empty;
-        public int Price { get; set; }
-        public int Quantity { get; set; }
-        public string Category { get; set; } = string.Empty;
-        public string Description { get; set; } = string.Empty;
+        public ProductCategory? Category { get; set; }
+        public int MaxProducts { get; set; }
 
     }
 }
