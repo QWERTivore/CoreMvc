@@ -1,4 +1,4 @@
-﻿# User Story: View Products: As a user I want to view available products so that I can browse the inventory.
+﻿# View Products: As a user I want to view available products so that I can browse the inventory.
 ## Goal: Return a list of products the user can browse.
 
 ### Happy Path:
