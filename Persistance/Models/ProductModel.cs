@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace GetTheRepsWeb.Persistance.Models
 {
-    public class Product
+    public class ProductModel
     {
         [Key]
         public int Id { get; set; }
@@ -11,7 +11,6 @@ namespace GetTheRepsWeb.Persistance.Models
         public int Price { get; set; }
         public int Quantity { get; set; }
         public string Category { get; set; } = string.Empty;
-        public decimal Rating { get; set; }
         public string Description { get; set; } = string.Empty;
     }
 }

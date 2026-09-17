@@ -10,7 +10,7 @@ namespace GetTheRepsWeb.Persistance.Data
         // it is an instance of DbContext, and the options will represent the connections strings to the database
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
-        public DbSet<Product> Product { get; set; }
+        public DbSet<ProductModel> Product { get; set; }
 
     }
 }

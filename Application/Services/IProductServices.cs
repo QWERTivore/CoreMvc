@@ -1,6 +1,6 @@
 ﻿namespace GetTheRepsWeb.Application.Services
 {
-    public interface IProductPageServices
+    public interface IProductServices
     {
         // inspect the use case tiles 
 
