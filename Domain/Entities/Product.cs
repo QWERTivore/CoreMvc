@@ -1,4 +1,6 @@
 ﻿using GetTheRepsWeb.Domain.Enums;
+using GetTheRepsWeb.Domain.Exceptions;
+using GetTheRepsWeb.Domain.ValueObjects;
 
 namespace GetTheRepsWeb.Domain.Entities
 {
