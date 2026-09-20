@@ -1,4 +1,4 @@
-﻿namespace GetTheRepsWeb.Domain.ValueObjects
+﻿namespace GetTheRepsWeb.Domain.Aggregates.Entities
 {
     public class Rating
     {

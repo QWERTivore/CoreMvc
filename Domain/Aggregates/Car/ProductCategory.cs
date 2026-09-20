@@ -1,4 +1,4 @@
-﻿namespace GetTheRepsWeb.Domain.Enums
+﻿namespace GetTheRepsWeb.Domain.Aggregates.Entities
 {
     public enum ProductCategory
     {

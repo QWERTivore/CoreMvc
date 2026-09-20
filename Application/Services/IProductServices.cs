@@ -1,5 +1,5 @@
 ﻿using GetTheRepsWeb.Application.DTO;
-using GetTheRepsWeb.Domain.Entities;
+using GetTheRepsWeb.Domain.Aggregates.Entities;
 
 namespace GetTheRepsWeb.Application.Services
 {

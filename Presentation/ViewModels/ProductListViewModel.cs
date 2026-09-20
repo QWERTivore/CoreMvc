@@ -1,4 +1,4 @@
-﻿using GetTheRepsWeb.Domain.Enums;
+﻿using GetTheRepsWeb.Domain.Aggregates.Entities;
 
 namespace GetTheRepsWeb.Presentation.ViewModels
 {

@@ -1,8 +1,6 @@
-﻿using GetTheRepsWeb.Domain.Enums;
-using GetTheRepsWeb.Domain.Exceptions;
-using GetTheRepsWeb.Domain.ValueObjects;
+﻿using GetTheRepsWeb.Domain.Exceptions;
 
-namespace GetTheRepsWeb.Domain.Entities
+namespace GetTheRepsWeb.Domain.Aggregates.Entities
 {
     public class Product
     {
