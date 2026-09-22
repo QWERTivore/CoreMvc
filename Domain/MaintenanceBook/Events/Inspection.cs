@@ -11,8 +11,8 @@ namespace GetTheRepsWeb.Domain.MaintenanceBook.Events
 
         public override Action<Schedule, Category> CreateIrregular => 
             (schedule, category) => {
-                var inspectionEvent = schedule.MarkInspectionAsIrregular(category);
-                schedule.MarkEventOpen(inspectionEvent);
+                var newEvent = schedule.MarkInspectionAsIrregular(category);
+                schedule.MarkEventOpen(newEvent);
             };
         public override Action<Schedule, Category> MarkComplete =>
             (schedule, category) => {
