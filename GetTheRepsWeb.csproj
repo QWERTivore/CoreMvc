@@ -15,4 +15,12 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Domain\MaintenanceBook\Exceptions\" />
+    <Folder Include="Domain\RepairBoook\Exceptions\" />
+    <Folder Include="Domain\RepairBoook\Procedures\" />
+    <Folder Include="Domain\RepairBoook\ToolsCatalog\" />
+    <Folder Include="Domain\Vehicle\Exceptions\" />
+  </ItemGroup>
+
 </Project>
